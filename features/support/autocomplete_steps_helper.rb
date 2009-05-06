@@ -14,4 +14,7 @@ class AutoCompleteStepsHelper < ActionController::IntegrationTest
     visit url_for(:controller=>@controller_name, :action=>"auto_complete_for_#{field.id}", field.send(:name)=>value)
   end
   
+  def items
+    current_dom.search('//ul/li').map(&:inner_html)
+  end
 end

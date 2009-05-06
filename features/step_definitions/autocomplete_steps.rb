@@ -5,8 +5,7 @@ When /^I typeahead in "(.*)" with "(.*)"$/ do |field, value|
 end
 
 When /^I fill in "(.*)" with the first typeahead result$/ do |field|
-  result = @typeahead.current_dom.at('//ul/li').inner_html
-  When %Q[I fill in "#{field}" with "#{result}"]
+  When %Q[I fill in "#{field}" with "#{@typeahead.items.first}"]
 end
 
 When /^I typeahead in "(.*)" with "(.*)" selecting the first result$/ do |field, value|

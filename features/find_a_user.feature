@@ -19,6 +19,16 @@ Feature: Allow anyone to find a user and see their details
     Then I should see "Mickey Mouse"
       And I should see "123 Main Street"
 
+  Scenario: Typeahead should return 2 users that match but not a third
+    Given "Mickey Mouse" is a user living at "123 Main Street"
+      And "Donald Duck" is a user living at "123 Pond Lane"
+      And "Minnie Mouse" is a user living at "123 Disney Avenue"
+    When I am on the homepage
+      And I typeahead in "Which user" with "Mi"
+    Then I should see in my typeahead "Mickey Mouse"
+      And I should see in my typeahead "Minnie Mouse"
+      And I should not see in my typeahead "Donald Duck"
+
     
 
 
