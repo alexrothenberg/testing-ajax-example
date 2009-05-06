@@ -1,21 +1,11 @@
-<h1>Listing users</h1>
+<h1>Search for a User</h1>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Address</th>
-  </tr>
-
-<% @users.each do |user| %>
-  <tr>
-    <td><%=h user.name %></td>
-    <td><%=h user.address %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+<% form_tag :action=>:show do %>
+  <%= label_tag 'user[name]', 'Which user?' %> 
+  <%= text_field_with_auto_complete :user, :name, {}, {:method => :get } %>
+  <br/>
+  <%= submit_tag 'Find' %>
 <% end %>
-</table>
 
 <br />
 

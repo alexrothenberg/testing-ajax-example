@@ -1,0 +1,238 @@
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Alex Rothenberg', '2009-05-06 15:30:38', '123 Main Street', '2009-05-06 15:30:38')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-06 11:30:38) [GET]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Alex Rothenberg', '2009-05-06 15:31:07', '123 Main Street', '2009-05-06 15:31:07')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:31:07) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 72ms (View: 70, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:31:07) [POST]
+  Parameters: {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Alex Rothenberg') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 37ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Alex Rothenberg', '2009-05-06 15:31:43', '123 Main Street', '2009-05-06 15:31:43')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:31:43) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 39ms (View: 38, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:31:43) [POST]
+  Parameters: {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Alex Rothenberg') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Alex Rothenberg', '2009-05-06 15:32:03', '123 Main Street', '2009-05-06 15:32:03')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:32:03) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 39ms (View: 37, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:32:03) [POST]
+  Parameters: {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Alex Rothenberg') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Alex Rothenberg', '2009-05-06 15:38:41', '123 Main Street', '2009-05-06 15:38:41')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:38:41) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 41ms (View: 39, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:38:41) [POST]
+  Parameters: {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Alex Rothenberg') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Alex Rothenberg', '2009-05-06 15:43:50', '123 Main Street', '2009-05-06 15:43:50')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:43:50) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 41ms (View: 39, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:43:50) [POST]
+  Parameters: {"user"=>{"name"=>"Alex Rothenberg"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Alex Rothenberg') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 15:48:24', '123 Main Street', '2009-05-06 15:48:24')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:48:24) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 39ms (View: 37, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:48:24) [POST]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Mickey Mouse') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 15:48:24', '123 Main Street', '2009-05-06 15:48:24')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:48:24) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+  [4;36;1mUser Create (70.4ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 15:50:39', '123 Main Street', '2009-05-06 15:50:39')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:50:39) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 43ms (View: 41, DB: 70) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 11:50:39) [POST]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Mickey Mouse') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 15:50:39', '123 Main Street', '2009-05-06 15:50:39')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 11:50:39) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 16:03:49', '123 Main Street', '2009-05-06 16:03:49')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 12:03:49) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 42ms (View: 40, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 12:03:49) [POST]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Mickey Mouse') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 16:03:49', '123 Main Street', '2009-05-06 16:03:49')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 12:03:49) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 16:04:12', '123 Main Street', '2009-05-06 16:04:12')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 12:04:12) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 101ms (View: 65, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 12:04:12) [POST]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Mickey Mouse') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 31ms (View: 13, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (1.1ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 16:04:12', '123 Main Street', '2009-05-06 16:04:12')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 12:04:12) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET http://www.example.com/users/auto_complete_for_user_name?user%5Bname%5D=Mickey+Mouse with {} and HTTP headers {}
+
+
+Processing UsersController#auto_complete_for_user_name (for 127.0.0.1 at 2009-05-06 12:04:12) [GET]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER(name) LIKE '%mickey mouse%') ORDER BY name ASC LIMIT 10[0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://www.example.com/users/auto_complete_for_user_name?user%5Bname%5D=Mickey+Mouse]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 16:04:33', '123 Main Street', '2009-05-06 16:04:33')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 12:04:33) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 12:04:33) [POST]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'Mickey Mouse') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://www.example.com/users/show]
+  [4;36;1mUser Create (9.0ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "address", "created_at") VALUES('Mickey Mouse', '2009-05-06 16:04:33', '123 Main Street', '2009-05-06 16:04:33')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-05-06 12:04:33) [GET]
+Rendering template within layouts/users
+Rendering users/index
+Completed in 2ms (View: 2, DB: 9) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET http://www.example.com/users/auto_complete_for_user_name?user%5Bname%5D=Mickey+Mouse with {} and HTTP headers {}
+
+
+Processing UsersController#auto_complete_for_user_name (for 127.0.0.1 at 2009-05-06 12:04:33) [GET]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER(name) LIKE '%mickey mouse%') ORDER BY name ASC LIMIT 10[0m
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/users/auto_complete_for_user_name?user%5Bname%5D=Mickey+Mouse]
+REQUESTING PAGE: POST /users/show with {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-05-06 12:04:33) [POST]
+  Parameters: {"user"=>{"name"=>"Mickey Mouse"}, "commit"=>"Find"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'Mickey Mouse') LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.example.com/users/show]

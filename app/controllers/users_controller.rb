@@ -1,19 +1,21 @@
 class UsersController < ApplicationController
+
+  auto_complete_for :user, :name
+  
+  
   # GET /users
   # GET /users.xml
   def index
-    @users = User.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @users }
-    end
   end
 
   # GET /users/1
   # GET /users/1.xml
   def show
-    @user = User.find(params[:id])
+    if params[:user] and params[:user][:name] 
+      @user = User.find_by_name(params[:user][:name])
+    else
+      @user = User.find(params[:id]) 
+    end
 
     respond_to do |format|
       format.html # show.html.erb
