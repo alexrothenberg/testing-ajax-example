@@ -1,5 +1,12 @@
 An Example of how to test AJAX (without the "J") calls using Cucumber and Webrat without a browser.
 
+To try it out
+* Ensure you have cucumber and its required gems installed (http://wiki.github.com/aslakhellesoy/cucumber/ruby-on-rails has a complete explanation).  
+    gem install rspec rspec-rails cucumber webrat
+    gem install term-ansicolor treetop diff-lcs nokogiri builder
+* Run the features
+    rake features
+
 To use in your project you'll need to copy features/step_definitions/autocomplete_steps.rb and features/support/autocomplete_steps_helper.rb.
 
 I've written a description this technique at http://www.alexrothenberg.com/2009/05/testing-ajax-without-browser-with.html
