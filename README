@@ -5,6 +5,7 @@ To try it out
     gem install rspec rspec-rails cucumber webrat
     gem install term-ansicolor treetop diff-lcs nokogiri builder
 * Run the features
+    rake db:migrate
     rake features
 
 To use in your project you'll need to copy features/step_definitions/autocomplete_steps.rb and features/support/autocomplete_steps_helper.rb.
