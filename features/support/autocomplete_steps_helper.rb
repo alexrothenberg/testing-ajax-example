@@ -8,6 +8,11 @@ class AutoCompleteStepsHelper < ActionController::IntegrationTest
     @request = ActionController::TestRequest.new
     @response = ActionController::TestResponse.new
     @request.session = existing_request.session
+
+    # # make the following specific for your application if you implement security
+    # # login as some user that can make ajax calls
+    # user = User.first
+    # visit login_url(:username=>user.name, :password=>user.password)
   end
   
   def type(field, value)
