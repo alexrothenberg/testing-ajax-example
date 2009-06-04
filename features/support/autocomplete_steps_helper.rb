@@ -7,7 +7,7 @@ class AutoCompleteStepsHelper < ActionController::IntegrationTest
     @controller = @controller_class.new
     @request = ActionController::TestRequest.new
     @response = ActionController::TestResponse.new
-    @response.session = @request.session
+    @request.session = existing_request.session
   end
   
   def type(field, value)
